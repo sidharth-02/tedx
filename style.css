@@ -1,0 +1,344 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    font-family: Poppins , sans-serif;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+.header-bg{
+    
+    background-color: black;
+    margin-left: 0px;
+    height: 105px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 105px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+.header_img_div{
+    align-items: center;
+    vertical-align: middle;
+    height: 105px;
+}
+.header_img{
+    width: 350px;
+    height: 136.41px;
+    max-width: 100%;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0px;
+    line-height: 39px;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+}
+.menu{
+    vertical-align: middle;
+    height: 105px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home,.talks,.blogs,.aboutus,.contactus{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.home:hover,.talks:hover,.blogs:hover,.aboutus:hover,.contactus:hover{
+    color: rgb(255, 43, 6);
+    transition: color 0.60s;
+}
+.blogs{
+    color: rgb(255, 43, 6);
+}
+.horizontalrule{
+    height: 7px;
+    width: 112px;
+    background-color: rgb(255, 43, 6);
+    border-radius: 1.5px;
+    border-width: 0px;
+    margin: 0px;
+    margin-top: 51px;
+    margin-left: 85px;    
+}
+.blogheading{
+    font-family: Poppins, sans-serif;
+    font-size: 29.6px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(255, 43, 6);
+    margin-left: 85px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+
+
+.blog_container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.blog_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 40px;
+    row-gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.blog_box_container_row1{
+    height: 644px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_box_container_row2{
+    height: 734px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_box_container_row3{
+    height: 733px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_box_container_row4{
+    height: 733px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_box_container_row5{
+    height: 670px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.blog_box_container_row6{
+    height: 818px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_box{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15);
+    position: relative;
+}
+.blog_img_container{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform 0.8s;
+    z-index: -1;
+    overflow: hidden;
+}
+.blog_img{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform 0.8s;
+    z-index: -1;
+    overflow: hidden;
+}
+.blog_img:hover{
+    transform: scale(1.25);
+
+}
+
+.blog_description{
+    padding: 0px 30px 30px 30px;
+}
+.blog_title{
+    margin-bottom: 5px;
+    color: rgb(17, 19, 67);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    outline-color: rgb(17, 19, 67);
+    text-align: center;
+    text-decoration-style: solid ;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    transition: color 0.75s;
+}
+
+.blog_title:hover{
+    color: rgb(255, 43, 6);
+}
+
+.blog_preview{
+    color: rgb(93, 94, 141);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-size-adjust: 100%;
+
+}
+.blog_button{
+    background-color: rgb(255, 43, 6);
+    width: 50px;
+    height: 50px;
+    margin-left: 155px;
+    border-radius: 50%;
+    padding-top: 5px;
+    position: absolute;
+    bottom: -28px;
+}
+.arrow{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_area{
+    margin:0px;
+    background-color: rgb(0, 0, 0);
+    height: 170.61px;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+}
+.footer_img{
+    width: 232.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+
+}
+.footer{
+    margin-left: 70px;
+    margin-right: 70px;
+    flex: 1;
+}
+.footer_flex{
+    display: flex;
+    height: 170.61px;
+    align-items: center;
+    
+
+}
+
+.footer_text_container{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    flex: 2;
+    margin-bottom: 40px;
+}
+.footer_text{
+    margin: 0px;
+    margin-bottom: 60px;
+
+}
+.para1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+.para2{
+    margin: 0px;
+    color: rgb(255, 43, 6);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.footer_social_icons_container{
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 1;
+    margin-bottom: 70px;
+}
+
+.footer_social_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_social_icons a{
+    margin-top: 25px;
+    margin-right: 12px;
+    border: 1px solid rgb(255, 43, 6);
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-radius: 50%;
+    transition: background-color 0.5s ;
+}
+
+.footer_social_icons a:hover{
+    background-color: rgb(255, 43, 6);
+}
+.fa{
+    padding: 10px;
+    align-items: stretch;
+}
+.fa-facebook{
+    width: 15px;
+}
